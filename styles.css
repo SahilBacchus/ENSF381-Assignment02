@@ -1,0 +1,168 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+}
+
+/* For index.html */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  #003366 ;
+    padding: 10px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #004080;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.about {
+    background-color: #d4d4d4;
+    text-align: center;
+    padding: 20px;
+    /*margin: 20px;*/
+}
+
+.key-features {
+    text-align: center;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* For login.html */
+
+.login {
+    text-align: center;
+}
+
+.login-form {
+    display: flexbox;
+    text-align: center;
+    box-shadow: 1px 1px 10px lightgray;
+    background-color: #d4d4d4;
+    padding: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 30px;
+}
+
+.login-form input {
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: darkgrey;
+    border-width: 3px;
+}
+
+.submit {
+    background-color: #008000;
+    color: white;
+    align-content: center;
+    border-radius: 5px;
+    padding: 7px 14px;
+    border: none;
+}
+
+.submit:hover {
+    background-color: #006600;
+}
+
+.login a {
+    color: #004080;
+    text-align: center;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+/* For course_view.html */
+
+.course-view {
+    text-align: center;
+}
+
+.course-view select {
+    background-color: lightyellow;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.course-view td{
+    background-color: #e6f2ff;
+    box-shadow: 1px 1px 10px lightgray;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+}
+
+.courses img {
+    max-width: 423px;
+    max-height: 310px;
+    width: auto;
+    height: auto;
+}
+
+.course-view button {
+    color: white;
+    border-radius: 5px;
+    padding: 5px 12px;
+    border: none;
+}
+
+.pending {
+    display: flex;
+    justify-content: center;
+}
+
+.pending img {
+    max-width: 640px;
+    max-height: 480px;
+    width: auto;
+    height: auto;
+}
+
+.accept {
+    background-color: #4caf50;
+}
+
+.accept:hover {
+    background-color: #265e28;
+}
+
+.decline {
+    background-color: #D32F2F;
+}
+
+.decline:hover {
+    background-color: #821b1b;
+}

@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
         <title>Login - LMS</title>
+    </head>
+    <header lang="en">
         <img src="logo.jpg" height="100" size="100">
         <h1>
             LMS - Learning Mangement System
         </h1>
-    </head>
+    </header>
     <body>
-        <div>
+        <div class="nav-bar">
+            <a href="index.html">Homepage</a>
+        </div>
+        <main class="login">
             <h2>
                 LMS Login
             </h2>
-            <a href="index.html">Homepage</a>
-            <br>
-            <br>
-        </div>
-        <main>
             <form action="course_view.html">
-                <label name="username">Username:</label>
-                <input name="username" type="text">
+                <div class="login-form">
+                    <label name="username">Username:</label>
+                    <br>
+                    <input name="username" type="text">
+                    <br>
+                    <br>
+                    <label name="password">Password:</label>
+                    <br>
+                    <input name="password" type="password">
+                </div>
                 <br>
                 <br>
-                <label name="password">Password:</label>
-                <input name="password" type="password">
-                <br>
-                <br>
-                <input name="login" type="submit" value="Login">
+                <input name="login" type="submit" value="Login" class="submit">
             </form>
             <br>
             <a href="">Forgot password?</a>
